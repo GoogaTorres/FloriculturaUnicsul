@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" sscontent="width=device-width, initial-scale=1.0">
+    <title>Formulário de compras Floricultura Cruzeiro do Sul </title>
+</head>
+<header>
+        <iframe src="../menu.html" style="height:280px; width:100%; border:none; " title="Iframe Example" scrolling="no"></iframe>
+</header>
+    <body>
+        <style>
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+                background-image:url(../planoDeFundo.jpg);
+            }
+            .box{
+                color: white;
+                position: absolute;
+                top: 900px;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                background-color: rgba(50, 0, 50, 0.8);
+                padding: 15px;
+                border-radius: 15px;
+            }
+            fieldset{
+                border: 1px solid rgb(231, 16, 167);
+            }
+            legend{
+                border: 1px solid rgb(231, 16, 167);
+                padding: 10px;
+                text-align: center;
+                background-color: rgb(231, 16, 167);
+                border-radius: 10px;
+            }
+            .InputBox{
+                position: relative;
+            }
+            .InputUser{
+                border-radius: 10px;
+                outline: none;
+                color: rgb(0, 0, 0);
+                font-size: 15px;
+                width: 100%;
+                letter-spacing: 3px; 
+                height:25px;
+            }
+            .LabelInput{
+            }
+            #Data_de_Nascimento{
+                border: none;
+                    padding: 8px;
+                    border-radius: 10px;
+                    outline: none;
+                    font-size: 15px;
+            }
+            #submit{
+                background-image: linear-gradient(to rigth, rgb(185, 71, 170),rgb(255, 44, 227));
+                    width: 50%;
+                    border: none;
+                    padding: 8px;
+                    color:blueviolet;
+                    font-size: 15px;
+                    cursor: pointer;
+                    border-radius: 10px;
+                    font-weight:bolder;
+            }
+            #submit:hover{
+            }
+            footer{
+                width:100%;
+                height:50%;
+            }
+        </style>
+    <div class="box">
+        <strong> Cadastre-se e receba nossas ofertas</strong>
+        <form action="">
+            <fieldset>
+                <legend><b> Formulário de cadastro </b></legend><br>
+                <div class="InputBox"><br>
+                    <label for ="Nome" class="LabelInput"> Nome completo: </label>
+                    <input type="text" name="Nome" id ="Nome" class ="InputUser" required> 
+                 </div> 
+                <br><br>
+                <div>
+                    <label for="Data_de_Nascimento"> Data da nascimento: </label>
+                    <input type="date" nome="Data_de_Nascimento" id ="Data_de_Nascimento" required>
+                </div><br>
+                <div> 
+                    Genero: <br><p>
+                    <input type="radio" id = "Feminino" name="Genero" value="Feminino" required> 
+                    <label for="Feminino" > Feminino </label><br/>
+                    <input type="radio" id ="Masculino" name="Genero" value="Masculino" required> 
+                    <label for ="Masculino"> Masculino </label> <br/>
+                    <input type="radio" id="Outro" name="Genero" value="Outro" required> 
+                    <label for ="Outro"> Outro </label> <br/>
+                    </div></p>
+                    <br>
+                    <p> Selecione seu estado:
+        <select>
+            <option value="AC"> AC </option>
+            <option value="AL"> AL </option>
+            <option value="AP"> AP </option>
+            <option value="AM"> AM </option>
+            <option value="BA"> BA </option>
+            <option value="CE"> CE </option>
+            <option value="DF"> DF </option>
+            <option value="ES"> ES </option>
+            <option value="GO"> GO </option>
+            <option value="MA"> MA </option>
+            <option value="MT"> MT </option>
+            <option value="MS"> MS </option>
+            <option value="MG"> MG </option>
+            <option value="PA"> PA </option>
+            <option value="PB"> PB </option>
+            <option value="PR"> PR </option>
+            <option value="PR"> PE </option>
+            <option value="PI"> PI </option>
+            <option value="RJ"> RJ </option>
+            <option value="RN"> RN </option>
+            <option value="RS"> RS </option>
+            <option value="RO"> RO </option>
+            <option value="RR"> RR </option>
+            <option value="SC"> SC </option>
+            <option value="SP"> SP </option>
+            <option value="SE"> SE </option>
+     </select>
+         </p><br> 
+         <div>
+            <label for ="Cidade" class="LabelInput"> Cidade: </label>
+            <input type="text" name="Cidade" id ="Cidade" class ="InputUser" required> 
+        </div><br>
+        <div>
+            <label for ="Endereco" class="LabelInput"> Endereço: </label>
+            <input type="text" name="Endereco" id ="Endereco" class="InputUser" required>
+        </div><br>
+        <div>
+            <label for ="txtCEP" class="LabelInput"> CEP: </label>
+            <input type="text" name="CEP" id ="txtCEP" class="InputUser" required>
+        </div><br>
+        <div>
+            <label for ="Bairro" class="LabelInput"> Bairro: </label>
+            <input type="text" name="Bairro" id ="Bairro" class ="InputUser" required> 
+         </div><br>
+         <div>
+            <label for ="Telefone" class="LabelInput"> Telefone: </label>
+            <input type="tel" name="telefone" id ="Telefone" class="InputUser" required>
+        </div><br>
+         <div>
+            <label for ="Email" class="LabelInput"> Email: </label>
+            <input type="usermail" name="email" id ="email" class="InputUser" required>
+        </div><br>
+        <div>
+            <label for ="Senha" class="LabelInput"> Senha: </label>
+            <input type="password" name="senha" id ="senha" class="InputUser" required>
+        </div> <br>
+        <div>
+             Selecione uma forma de pagamento:<br>
+             <p>
+                <input type ="checkbox" name="Debito" value="Debito"/> Débito <br/>
+                <input type ="checkbox" name="Credito" value="Credito"/> Crédito <br/>
+                <input type ="checkbox" name="Pix" value="Pix"/> Pix <br/>
+                <input type ="checkbox" name="Boleto" value="Boleto"/> Boleto <br/>
+            </p>
+        </div><br>
+        <input type="submit" value="Cadastrar" id ="submit">
+        <input type="submit" value="Cancelar" id ="submit"> 
+            </fieldset>
+        </form>
+    </div>
+    </body>
+<footer>
+    <iframe src="../rodape.html" style="margin-top:1200px; width:100%; border:none; " title="Iframe Example" scrolling="no"></iframe>
+</footer>
+</html>

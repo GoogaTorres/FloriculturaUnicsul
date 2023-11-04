@@ -1,0 +1,12 @@
+prod1 = Buquê de Rosas Vermelhas 20 Unidades R$98
+prod2 = Buquê de Rosas Vermelhas com 30 Unidades R$108
+prod3 = Buquê Com 06 Rosas Colombianas No Papel R$74
+prod4 = Buquê de Rosas Importadas Colombianas R$94
+prod5 = Astromélias Coloridas No Vaso De Vidro R$94
+prod6 = Astromélias Cor De Rosa No Vaso De Vidro R$94
+prod7 = Lindissimo Arranjo Com Orquideas Lilas Com 2 Hastes no Cachepo R$139
+prod8 = Buquê Mix De Flores Do Campo R$149
+prod9 = Arranjo De Rosas Vermelhas No Vaso de Vidro R$128
+prod10 = Buque Com Duas Rosas Vermelhas E Chocolate Bombonatti Com 9 Unidades R$104
+prod11 = Encanto De Rosas Pink No Vaso De Vidro R$189
+prod12 = Orquidea Branca Com Duas Hastes No Vaso Redondo R$218

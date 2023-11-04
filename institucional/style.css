@@ -1,0 +1,6 @@
+body{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(fundo.jpg);}
+body{background-position:no-repeat;
+background-size: 100%;}
+.areaprincipal{width: 70%; 
+margin: 0 auto;}
